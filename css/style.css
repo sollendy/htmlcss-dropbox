@@ -43,13 +43,12 @@ header, nav, .nav-container {
     display: flex;
     justify-content: center;
     padding-top: 3rem;
-
 }
 
 .sec-container {
     background-color: rosybrown;
     height: 90%;
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 4rem;
     /* padding-top: 3rem; */
@@ -61,9 +60,10 @@ header, nav, .nav-container {
 
 .sec-container .text-img {
     height: 100%;
+    width: 90%;
     background-color: aqua;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -76,7 +76,7 @@ header, nav, .nav-container {
 }
 
 .img-cont {
-    height: 70%;
+    height: 80%;
     width: 50%;
     position: relative;
 }
@@ -91,8 +91,101 @@ header, nav, .nav-container {
 main {
     width: 100%;
 }
+
+.table-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .tabelle {
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
+.tabelle .fila {
+    display: flex;
+    gap: 2rem;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border: solid 1px;
+}
+
+.head-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fine-centro {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.centro-tab ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.end-tab ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tab-4 {
+
+}
+
+.partner-sec {
+    width: 100%;
+}
+
+.part-cont {
+    width: 80%;
+    margin: auto;
+}
+
+.business {
+    width: 80%;
+    margin: auto;
+}
+
+.scopri {
+    width: 80%;
+    margin: auto;
+}
+
+.quadretti {
+    width: 100vw;
+    height: 95vh;
+    background-color: lightblue;
+}
+
+.faq {
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+}
+
+.riferimenti {
+    width: 85%;
+    padding: auto;
+    color: white;
+}
+
+.refer-list {
+    display: flex;
+}
