@@ -60,9 +60,9 @@ button {
 }
 
 .sec-container {
-    background-color: rosybrown;
-    height: 90%;
-    width: 80%;
+    /* background-color: rosybrown; */
+    /* height: 90%; */
+    width: 90%;
     margin: auto;
     margin-top: 1.5rem;
     /* padding-top: 3rem; */
@@ -75,13 +75,13 @@ button {
 .sec-container .text-img {
     /* height: 100%; */
     width: 90%;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: stretch;
     font-size: smaller;
-    gap: 1em;
+    gap: 4em;
 }
 
 .sec-container .text-img .testo {
@@ -110,9 +110,10 @@ button {
 }
 
 .img-cont {
-    height: 80%;
-    width: 50%;
-    position: relative;
+    /* height: 80%; */
+    width: 55%;
+    /* position: relative; */
+    margin-bottom: -4em;
 }
 
 .img-cont img {
@@ -133,7 +134,7 @@ main {
 }
 
 .tabelle {
-    width: 80%;
+    width: 55%;
     margin: auto;
 }
 
