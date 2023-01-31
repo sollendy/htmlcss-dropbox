@@ -99,6 +99,10 @@ button {
     bottom: 0;
 } */
 
+.sec-container .text-img .testo .head-btn {
+    /* width: 100rem; */
+}
+
 .sec-container .text-img .testo button {
     height: 2em;
     width: 14em;
@@ -127,19 +131,21 @@ main {
     width: 100%;
 }
 
-.table-cont {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
 
 .tabelle {
     width: 55%;
     margin: auto;
+    padding-top: 5rem;
 }
 
 .tabelle .fila {
     display: flex;
+    gap: 2rem;
+}
+
+.table-cont {
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
