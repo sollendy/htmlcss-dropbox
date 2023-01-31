@@ -133,7 +133,7 @@ main {
 
 
 .tabelle {
-    width: 55%;
+    width: 70%;
     margin: auto;
     padding-top: 5rem;
 }
@@ -185,6 +185,7 @@ main {
     flex-direction: column;
     gap: 2rem;
     border: solid 1px;
+    /* padding: 0 .5em 0 .5em; */
 }
 
 .tabelle .table .table-cont .fila .tabs .target {
@@ -195,10 +196,59 @@ main {
     border-bottom: solid 1px;
 }
 
+.tab-4 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem; */
+    border: solid 1px;
+}
+
+
+.target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    border-bottom: solid 1px;
+}
+
+.tabelle .table .table-cont .fila .tabs .corpus-tabula {
+    padding: 0 1em 0 1em;
+}
+
+.tab-4 .corpus-tabula {
+    display: flex;
+    padding: 1.5em 1em 0 1em;
+
+}
+
+.tab-4 .corpus-tabula .tab4-text-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.tab-4 .corpus-tabula .tab4-text-cont .tab4-title {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.tab-4 .corpus-tabula .button-tab4 {
+    background-color: rgb(0, 97, 255);
+    width: 15em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .head-list {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding-bottom: 2.5em;
 }
 
 .centro-tab ul {
@@ -208,6 +258,11 @@ main {
     list-style-type: none;
 }
 
+.centro-tab li {
+    display: flex;
+    gap: .3em;
+}
+
 .fine-centro {
     padding-top: 2rem;
     display: flex;
@@ -215,6 +270,15 @@ main {
     gap: 1rem;
 }
 
+.fine-centro button {
+    /* width: 95%; */
+    height: 2.5em;
+}
+
+hr {
+    width: 25%;
+    margin: 2.5em 0 2.5em 0;
+}
 
 .end-tab ul {
     display: flex;
@@ -223,6 +287,15 @@ main {
     list-style-type: none;
 }
 
+.end-tab li {
+    display: flex;
+    gap: .3em;
+}
+
+.end-tab li i {
+    color: rgb(0, 97, 255);
+    font-weight: bolder;
+}
 /* .tab-4 {
 
 } */
@@ -231,9 +304,48 @@ main {
     width: 100%;
 }
 
-.part-cont {
-    width: 80%;
+.partner-sec .part-cont {
+    width: 70%;
     margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.partner-sec .part-cont {
+    display: flex;
+    gap: 2em;
+}
+
+.partner-sec .part-cont .part-img {
+    /* width: 50%;
+    height: 20em; */
+}
+
+.partner-sec .part-cont .part-img img {
+    height: auto;
+    width: 30em;
+}
+
+.partner-sec .part-cont .part-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5em;
+    width: 16em;
+}
+
+.partner-sec .part-cont .part-text button {
+    width: 44%;
+    height: 10%;
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+.partner-sec .part-cont .part-text .part-title {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .business {
@@ -265,7 +377,7 @@ footer {
 
 .riferimenti {
     width: 85%;
-    padding: auto;
+    margin: auto;
     color: white;
 }
 
