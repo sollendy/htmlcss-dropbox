@@ -404,6 +404,7 @@ hr {
 }
 
 .quadretti .cont-quadretti {
+    width: 100%;
     height: 60%;
     display: flex;
 }
@@ -411,16 +412,36 @@ hr {
 .centro-quadretti {
     height: 100%;
     width: 33%;
+    background-color: rgb(245, 245, 245);
 }
 
 .centro-quadretti .centro-cont {
     height: 100%;
     width: 100%;
+    padding: 1.5rem 1rem 0 1.5rem;
+    /* display: flex;
+    flex-direction: column;
+    gap: 3px; */
+}
+
+#central-logo {
+    width: 40%;
+}
+
+/* .centro-quadretti .centro-cont .designi-cont img {
+    volevo stilizzare il logo di designit ma non ci sono riuscito pertanto ho creato l'id soprastante per sopperire al problema
+    width: 1rem;
+} */
+
+.designit-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .quadri {
     height: 100%;
-    width: 33%;
+    width: 33.5%;
     height: auto;
 }
 
@@ -432,14 +453,78 @@ hr {
 }
 
 .quadro {
-    height: calc(100% / 4);
-    width: calc(100% / 4);
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quadro img {
-    height: 100%;
-    width: 100%;
+    /* height: auto; */
+    width: 50%;
     filter: invert(1);
+}
+.quadro-1 {
+    background-color: rgb(162, 211, 155);
+}
+
+.quadro-2 {
+    background-color: rgb(97, 8, 43);
+}
+
+.quadro-3 {
+    background-color: rgb(0, 147, 206);
+}
+
+.quadro-4 {
+    background-color: rgb(255, 28, 28);
+}
+
+.quadro-5 {
+    background-color: rgb(213, 0, 31);
+}
+
+.quadro-6 {
+    background-color: rgb(180, 208, 231);
+}
+
+.quadro-7 {
+    background-color: rgb(13, 36, 129);
+}
+
+.quadro-8 {
+    background-color: rgb(255, 216, 48);
+}
+
+.fine-quadri {
+    height: 40%;
+    width: 100%;
+    /* margin: auto; */
+}
+
+.fine-quadri .fine-cont {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    /* display: flex;
+    align-items: center; */
+}
+
+.fine-quadri .fine-cont .titolo-bottone {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10rem;
+}
+
+.fine-quadri .fine-cont .titolo-bottone button {
+    height: 2rem;
+    width: 14rem;
+    color: black;
+    background-color: white;
+
 }
 
 .faq {
