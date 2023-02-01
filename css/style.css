@@ -52,8 +52,6 @@ button {
     padding-left: 2em;
 }
 
-
-
 #jumbo {
     padding-top: 3rem;
     width: 100%;
@@ -480,32 +478,64 @@ hr {
     background-color: rgb(162, 211, 155);
 }
 
+.quadro-1:hover {
+    border: solid .5rem rgb(209, 233, 205);
+}
+
 .quadro-2 {
     background-color: rgb(97, 8, 43);
+}
+
+.quadro-2:hover {
+    border: solid .5rem rgb(174, 15, 78);
 }
 
 .quadro-3 {
     background-color: rgb(0, 147, 206);
 }
 
+.quadro-3:hover {
+    border: solid .5rem rgb(53, 191, 245);
+}
+
 .quadro-4 {
     background-color: rgb(255, 28, 28);
+}
+
+.quadro-4:hover {
+    border: solid .5rem rgb(255, 79, 79);
 }
 
 .quadro-5 {
     background-color: rgb(213, 0, 31);
 }
 
+.quadro-5:hover {
+    border: solid .5rem rgb(255, 56, 86);
+}
+
 .quadro-6 {
     background-color: rgb(180, 208, 231);
+}
+
+.quadro-6:hover {
+    border: solid .5rem rgb(207, 233, 255);
 }
 
 .quadro-7 {
     background-color: rgb(13, 36, 129);
 }
 
+.quadro-7:hover {
+    border: solid .5rem rgb(22, 57, 195);
+}
+
 .quadro-8 {
     background-color: rgb(255, 216, 48);
+}
+
+.quadro-8:hover {
+    border: solid .5rem rgb(250, 225, 116);
 }
 
 .fine-quadri {
@@ -528,6 +558,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     padding-right: 10rem;
+    color: rgb(97, 8, 43);
 }
 
 .fine-quadri .fine-cont .titolo-bottone button {
