@@ -425,18 +425,21 @@ hr {
 }
 
 .quadri .quadri-cont {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
 }
 
 .quadro {
     height: calc(100% / 4);
-    width: 100% / 4;
+    width: calc(100% / 4);
 }
 
 .quadro img {
     height: 100%;
     width: 100%;
+    filter: invert(1);
 }
 
 .faq {
