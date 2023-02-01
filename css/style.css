@@ -52,6 +52,8 @@ button {
     padding-left: 2em;
 }
 
+
+
 #jumbo {
     padding-top: 3rem;
     width: 100%;
@@ -194,6 +196,7 @@ main {
     gap: 2rem;
     border: solid 1px;
     /* padding: 0 .5em 0 .5em; */
+    padding-bottom: 3rem;
 }
 
 .tabelle .table .table-cont .fila .tabs .target {
@@ -553,10 +556,12 @@ hr {
 
 .faq .faq-cont .domande .domanda {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     border-top: solid 1px grey;
     /* border-bottom: solid 1px black; */
-    height: 3.5rem;
+    height: 3.8rem;
+    padding-right: 2rem;
 }
 
 .faq .faq-cont .domande .domanda-3 {
