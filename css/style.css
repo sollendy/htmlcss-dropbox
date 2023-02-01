@@ -398,9 +398,45 @@ hr {
 }
 
 .quadretti {
-    width: 98.7vw;
+    width: 100%;
     height: 95vh;
     background-color: lightblue;
+}
+
+.quadretti .cont-quadretti {
+    height: 60%;
+    display: flex;
+}
+
+.centro-quadretti {
+    height: 100%;
+    width: 33%;
+}
+
+.centro-quadretti .centro-cont {
+    height: 100%;
+    width: 100%;
+}
+
+.quadri {
+    height: 100%;
+    width: 33%;
+    height: auto;
+}
+
+.quadri .quadri-cont {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.quadro {
+    height: calc(100% / 4);
+    width: 100% / 4;
+}
+
+.quadro img {
+    height: 100%;
+    width: 100%;
 }
 
 .faq {
